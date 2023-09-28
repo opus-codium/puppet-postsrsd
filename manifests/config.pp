@@ -10,7 +10,7 @@ class postsrsd::config {
     content => epp('postsrsd/postsrsd.secret.epp'),
   }
 
-  file { $postsrsd::config_path:
+  file { $postsrsd::config_file:
     ensure  => file,
     owner   => 'root',
     group   => 'postsrsd',

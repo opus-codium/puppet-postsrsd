@@ -9,7 +9,7 @@
 #     }
 class postsrsd (
   Array[Sensitive[String[1]]]    $secrets,
-  Stdlib::Absolutepath           $config_path,
+  Stdlib::Absolutepath           $config_file,
   Array[Stdlib::Fqdn]            $domains,
   Stdlib::Absolutepath           $secrets_file,
   String[1]                      $chroot_dir,
