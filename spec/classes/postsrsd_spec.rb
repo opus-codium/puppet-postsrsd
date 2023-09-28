@@ -9,6 +9,9 @@ describe 'postsrsd' do
 
       let(:params) do
         {
+          secrets: [
+            sensitive('xxx')
+          ],
           domains: ['example.com', 'example.org']
         }
       end

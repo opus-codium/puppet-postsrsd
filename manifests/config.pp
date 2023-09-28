@@ -2,6 +2,14 @@
 #
 # @api private
 class postsrsd::config {
+  file { $postsrsd::secrets_file:
+    ensure  => file,
+    owner   => 'root',
+    group   => 'postsrsd',
+    mode    => '0644',
+    content => epp('postsrsd/postsrsd.secret.epp'),
+  }
+
   file { $postsrsd::config_path:
     ensure  => file,
     owner   => 'root',

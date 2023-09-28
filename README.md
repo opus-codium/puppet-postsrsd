@@ -31,6 +31,9 @@ Providing a list of domains to manage is enough to get started:
 
 ```puppet
 class { 'postsrsd':
+  secrets => [
+    Sensitive('Example! Please use a better secret!'),
+  ],
   domains => [
     'example.com',
     'example.org',
