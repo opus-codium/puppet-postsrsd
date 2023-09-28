@@ -1,0 +1,29 @@
+{
+  "name": "opuscodium-postsrsd",
+  "version": "0.1.0",
+  "author": "Opus Codium",
+  "summary": "Manage PostSRSd",
+  "license": "Apache-2.0",
+  "source": "https://github.com/opus-codium/puppet-postsrsd",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 8.6.0 < 10.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "12",
+        "13"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 7.24 < 9.0.0"
+    }
+  ]
+}
