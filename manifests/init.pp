@@ -13,6 +13,7 @@ class postsrsd (
   Array[Stdlib::Fqdn]            $domains,
   Stdlib::Absolutepath           $secrets_file,
   String[1]                      $chroot_dir,
+  String[1]                      $group,
   Optional[Stdlib::Absolutepath] $domains_file      = undef,
   Optional[Stdlib::Fqdn]         $srs_domain        = undef,
   String[1]                      $socketmap         = 'unix:/var/spool/postfix/srs',
@@ -34,7 +35,6 @@ class postsrsd (
   Boolean                        $manage_service    = true,
   Stdlib::Ensure::Service        $service_ensure    = 'running',
   Boolean                        $service_enable    = true,
-
 ) {
   contain postsrsd::package
   contain postsrsd::config

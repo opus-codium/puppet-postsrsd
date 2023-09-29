@@ -1,4 +1,5 @@
 ---
-postsrsd::config_file: /usr/local/etc/postsrsd.conf
-postsrsd::secrets_file: /usr/local/etc/postsrsd.secret
 postsrsd::chroot_dir: /var/postsrsd
+postsrsd::config_file: /usr/local/etc/postsrsd.conf
+postsrsd::group: mailnull
+postsrsd::secrets_file: /usr/local/etc/postsrsd.secret
