@@ -6,7 +6,7 @@ class postsrsd::config {
     ensure  => file,
     owner   => 'root',
     group   => $postsrsd::group,
-    mode    => '0644',
+    mode    => '0640',
     content => epp('postsrsd/postsrsd.secret.epp'),
   }
 
@@ -14,7 +14,7 @@ class postsrsd::config {
     ensure  => file,
     owner   => 'root',
     group   => $postsrsd::group,
-    mode    => '0640',
+    mode    => '0644',
     content => epp('postsrsd/postsrsd.conf.epp'),
   }
 }
