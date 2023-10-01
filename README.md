@@ -1,7 +1,7 @@
 # postsrsd
 
 <!-- header GFM -->
-[![Build Status](https://img.shields.io/github/workflow/status/opus-codium/puppet-postsrsd/Release)](https://github.com/opus-codium/puppet-postsrsd/releases)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/opus-codium/puppet-postsrsd/release.yml)](https://github.com/opus-codium/puppet-postsrsd/releases)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/opuscodium/postsrsd.svg)](https://forge.puppetlabs.com/opuscodium/postsrsd)
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/opuscodium/postsrsd.svg)](https://forge.puppetlabs.com/opuscodium/postsrsd)
 [![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/opuscodium/postsrsd.svg)](https://forge.puppetlabs.com/opuscodium/postsrsd)
